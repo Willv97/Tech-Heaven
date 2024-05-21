@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+}
+
+.header {
+    background-color: aqua;
+    color: goldenrod;
+    padding: 0;
+    box-shadow: 0 4px 8px rgb(34, 86, 94);
+}
+
+.nav {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 80px;
+}
+
+.nav-links {
+    color: purple;
+}
+
+.nav-links:active {
+    color: purple;
+    opacity: .08s;
+}
+.tech-heaven-logo {
+    background-color: rgb(176, 133, 80);
+    color: rgb(245, 107, 245);
+    padding: 2px;
+    border: none;
+}

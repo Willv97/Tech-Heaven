@@ -24,6 +24,7 @@ body {
     color: purple;
     opacity: .08s;
 }
+
 .tech-heaven-logo {
     background-color: rgb(176, 133, 80);
     color: rgb(245, 107, 245);
@@ -31,6 +32,12 @@ body {
     border: none;
 }
 
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: aquamarine;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 footer {
     text-align: center;
     padding: 10px;

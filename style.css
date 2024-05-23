@@ -14,15 +14,21 @@ body {
     justify-content: left;
     align-items: left;
     height: 80px;
+    cursor: pointer;
 }
 
 .nav-links {
     color: purple;
+    cursor: pointer;
 }
 
 .nav-links:active {
     color: purple;
     opacity: .08s;
+}
+
+.nav-links:hover {
+    cursor: pointer
 }
 
 .tech-heaven-logo {
@@ -35,7 +41,7 @@ body {
 .section {
     margin: 20px 0;
     padding: 20px;
-    background-color: aquamarine;
+    background-color: rgb(95, 252, 200);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 footer {

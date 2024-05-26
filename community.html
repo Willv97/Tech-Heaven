@@ -21,10 +21,29 @@
         </nav>
     </header>
     <main>
-        <section id="community" class="community-section">
-            <h2>Join In and Enjoy Your New Community</h2>
+        <section id="brotherhood" class="brotherhood-form">
+            <h2>Welcome to the brotherhood of coders</h2>
             <p>Engage with other talented professionals and experienced innovators in the tech space</p>
+            <div class="forum-container">
+                <div class="post-form">
+                    <h3>Create your Post</h3>
+                    <form id="postForm">
+                        <label for="postTitle">Title:</label>
+                        <input type="text" id="postTitle" name="postTitle" required>
+                        <label for="postContent">Content</label>
+                        <textarea id="postContent" name="postContent" rows="5" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="posts">
+                    <h3>Posts</h3>
+                    <div id="postContainer">
+                        <!--Posts are going to show here-->
+                    </div>
+                </div>
+            </div>
         </section>
+
     </main>
 </body>
 </html>

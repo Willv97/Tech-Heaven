@@ -122,6 +122,15 @@ cite {
     border-radius: 15px;
 }
 
+.join-us-button:hover {
+    background-color: yellow;
+    transition: opacity 0.14s;
+}
+
+.join-us-button:active {
+    color: palevioletred;
+}
+
 footer {
     text-align: center;
     padding: 10px;

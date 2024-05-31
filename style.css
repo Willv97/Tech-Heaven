@@ -1,39 +1,50 @@
 body {
-    background-color: bisque;
+    background-color: rgb(68, 109, 97);
 }
 
 .header {
-    background-color: rgb(180, 255, 109);
+    background-color: rgb(165, 238, 97);
     color: goldenrod;
     padding: 0;
     box-shadow: 0 4px 8px rgb(34, 86, 94);
 }
 
-.nav {
+nav {
     display: flex;
-    justify-content: left;
-    align-items: left;
-    height: 80px;
-    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5em;
 }
 
 .nav-links {
-    color: purple;
-    cursor: pointer;
+    list-style-type: none;
+    display: flex;
 }
 
-.nav-links:active {
-    color: purple;
-    opacity: .08s;
+.nav-links li {
+    margin: 0 15px;
 }
 
-.nav-links:hover {
-    cursor: pointer
+.nav-links li a {
+    color: rgb(217, 26, 217);
+    padding: 10px 15px;
+    transition: background-color 0,3s, color 0,3s;
+}
+
+.nav-links li a:hover {
+    background-color: #575757;
+    color: lime;
+    border-radius: 4px;
 }
 
 .tech-heaven-logo {
-    background-color: rgb(176, 133, 80);
-    color: rgb(245, 107, 245);
+    background-color: rgb(0, 0, 0);
+    color: rgb(217, 26, 217);
     padding: 2px;
     border: none;
 }

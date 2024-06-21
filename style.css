@@ -70,7 +70,7 @@ nav {
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 2px;
 }
 
 li.site-item {
@@ -97,8 +97,8 @@ li.site-item:hover {
 }
 
 .site-logo {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-right: 20px;
 }
 

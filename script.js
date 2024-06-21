@@ -16,4 +16,4 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0; //For safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+};
